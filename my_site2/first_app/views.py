@@ -4,4 +4,4 @@ from django.http import HttpResponse
 # Create your views here.
 
 def create(Request):
-    return HttpResponse("success is the factor")
+    return render(Request, 'first_app/example.html')

@@ -3,6 +3,5 @@ from django.http import HttpResponse
 
 
 # Create your views here.
-
-def index(Response):
-    return HttpResponse ("Lets begin this journey of self destruction")
+def simple(request):
+    return render(request,'first_app/app.html')

@@ -8,7 +8,7 @@ def first_view(request):
 
 def variable_view(request):
     number = [25,50]
-    overaly=sum(number)
+    overaly=sum(number)   
     my_var= { 'first_name': 'Willy',
                'second_name':'Felix',
                'list':[12,10,15,14,25],'dictionary':{'number':overaly}}
